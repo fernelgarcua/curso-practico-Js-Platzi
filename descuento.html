@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porcentajes y descuentos</title>
+</head>
+<body>
+    <header>
+        <h1>Porcentajes y descuentos de PLATZI</h1>
+        <p>Este es el segundo taller</p>
+    </header>
+    <main>
+        <section>
+            <h2>Calcular el precio a pagar de los productos</h2>
+            <form>
+                <label for="InputPrice">Escriba el precio del producto</label>
+
+                <input id="InputPrice" type="number"/>
+
+                <label for="InputDiscount">Escriba el descuento del producto</label>
+
+                <input id="InputDiscount" type="number"/>
+
+                <button type="button" onclick="onButtonPrice()">Calcular Precio con descuento</button>
+                <p id="ResultPrice"></p>
+
+                <Label for="InputCupon">Elija el cupón que tiene: </Label>
+                <select name="cupon" id="InputCupon">
+                    <option value="0">0%</option>
+                    <option value="5">5%</option>
+                    <option value="10">10%</option>
+                    <option value= "15">15%</option>
+                </select>
+
+                <label for="PalabraClave">Escriba la palabra clave</label>
+                <input id="PalabraClave" type="text"/>
+
+            </form>
+        </section>
+    </main>
+    <script src="./descuento.js"></script>
+</body>
+</html>
